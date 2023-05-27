@@ -1,9 +1,9 @@
-# sqc-storybook-dev-components
+# sqc-my-storybook-components
 
 Este paquete me sirve para practicar React Components + Storybook + NPM Publish
 
 ```
-yarn add sqc-storybook-dev-components
+yarn add sqc-my-storybook-components
 ```
 
 ### Demo:
