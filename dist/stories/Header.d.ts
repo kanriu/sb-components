@@ -1,4 +1,4 @@
-import './header.css';
+import "./header.css";
 type User = {
     name: string;
 };
@@ -8,5 +8,5 @@ interface HeaderProps {
     onLogout: () => void;
     onCreateAccount: () => void;
 }
-export declare const Header: ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps) => import("react/jsx-runtime").JSX.Element;
-export {};
+export declare const Header: ({ user, onLogin, onLogout, onCreateAccount, }: HeaderProps) => import("react/jsx-runtime").JSX.Element;
+export default Header;
