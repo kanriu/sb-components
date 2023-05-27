@@ -1,6 +1,3 @@
-permissions:
-  contents: write
-
 name: Semantic Release
 
 on:
@@ -15,10 +12,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 18.16
+          node-version: 18.13.0
 
       - name: Install Dependencies
         run: yarn install
